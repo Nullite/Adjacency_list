@@ -13,10 +13,11 @@ class Graph
     FileReader fr = FileReader();
     Descriptor desc = Descriptor();
 
-public:
-    Graph();
     void addEdge(int u, int v);
     void vertex(int u);
+
+public:
+    Graph();   
     void process();
 };
 
