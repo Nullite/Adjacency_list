@@ -2,7 +2,7 @@
 class Descriptor
 {
 public:
-	//объявлем поле для перечисления возможных комманд для работы метода descript.
+	//РѕР±СЉСЏРІР»РµРј РїРѕР»Рµ РґР»СЏ РїРµСЂРµС‡РёСЃР»РµРЅРёСЏ РІРѕР·РјРѕР¶РЅС‹С… РєРѕРјРјР°РЅРґ РґР»СЏ СЂР°Р±РѕС‚С‹ РјРµС‚РѕРґР° descript.
 	enum desc_Code { CORRECTLY_DONE, COMMANDS_ERROR, NO_INPUT_COMMANDS };
 	void descript(desc_Code code);
 };
